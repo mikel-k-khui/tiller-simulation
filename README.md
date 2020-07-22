@@ -1,13 +1,13 @@
 ## Summary Notes On Asks
-- [x] The header height if there were more lines of text in the PFA: *set min-height to allow the height to grow*
+- [x] The header height if there were more lines of text in the PFA: *set min-height and height: auto for background and text to allow the height to grow*
 
 - [x] The overlapping of the products section over the header: *used negative margin*
 
-- [x] The background visuals in the monitoring section: *use 2 images in backgroun-display and set positions*
+- [x] The background visuals in the monitoring section: *use 2 images in background-display and set positions and size to contain*
 
 - [x] The content in the 3 blue context boxes in monitoring and how you would make them responsive: *use @media and max-width to duplicate wrapper class with flex-direction column instead of row*
 
-- [x] The alternating content in the Why Choose Advantage section: *use nth-of-item(even) to set flex-direction row-reverse*
+- [x] The alternating content in the Why Choose Advantage section: *use nth-of-item(even) pseudo to set flex-direction row-reverse*
 
 - [ ] The top nav + logo + footer (optional): *no time*
 
