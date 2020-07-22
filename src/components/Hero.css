@@ -1,11 +1,13 @@
 .Hero {
   position: relative;
+  height: auto;
 }
 
 .Hero::before {
   content: "";
   position: absolute;
   min-height: 400px;
+  height: 100%;
   width: 100%;
   background-image: url("assets/hero/background.png");
   background-position: bottom;
@@ -20,6 +22,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  height: auto;
 }
 
 .Hero-text-container {
@@ -28,6 +31,7 @@
   align-items: center;
   text-align: center;
   min-height: 344px;
+  height: auto;
 }
 
 .Hero-text {
@@ -36,4 +40,5 @@
   width: 60%;
   font-weight: normal;
   color: white;
+  height: auto;
 }
