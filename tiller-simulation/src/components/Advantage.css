@@ -1,0 +1,56 @@
+.Advantage-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.Advantage-background {
+  min-height: 1000px;
+  width: 100%;
+  background-color: #002035;
+}
+
+.Advantage-text {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  text-align: center;
+  color: white;
+}
+
+.Advantage-response-container {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 344px;
+}
+
+.Advantage-image-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 60%;
+}
+
+/*
+* look for the even number child and apply different flex direction
+*/
+.Advantage-image-text:nth-of-type(even) {
+  flex-flow: row-reverse;
+}
+
+.Advantage-image {
+  max-width: 300px;
+  display: flex;
+  margin: 15px;
+}
+
+.Advantage-column-text {
+  max-width: 300px;
+  display: flex;
+  margin: 15px;
+  color: white;
+}
