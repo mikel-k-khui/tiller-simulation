@@ -1,32 +1,39 @@
 .Hero {
-  text-align: center;
+  position: relative;
+}
+
+.Hero::before {
+  content: "";
+  position: absolute;
+  min-height: 400px;
+  width: 100%;
+  background-image: url("assets/hero/background.png");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: brightness(50%);
+  z-index: -1;
 }
 
 .Hero-header {
-  height: 500px;
+  min-height: 400px;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-}
-
-.Hero-background {
-  min-height: 500px;
-  width: 100%;
-  background-image: url("assets/hero/background.svg");
-  background-position: bottom;
 }
 
 .Hero-text-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   min-height: 344px;
 }
 
 .Hero-text {
   padding-top: 50px;
   padding-bottom: 50px;
-  width: 954px;
+  width: 60%;
   font-weight: normal;
   color: white;
 }

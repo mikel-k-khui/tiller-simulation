@@ -4,12 +4,13 @@ import './Monitoring.css';
 function Monitoring() {
   return (
     <div className="Monitoring">
-      <h2 className="Monitoring-text">
-        Our remote monitoring service eliminates huge amounts of manual work and helps make sure everyone gets home safe.
-      </h2>
-      <h4 className="Monitoring-text">
+      <h1 className="Monitoring-text">
+        Our remote monitoring service delivers efficiencies for your business.
+      </h1>
+      <h5 className="Monitoring-text">
         Smart sensoring helps you capture data faster and work with it more easily. And it helps keep workers safer in the field.
-      </h4>
+      </h5>
+      <a className="Monitoring-text" href="url">Learn More ></a>
       <p className="Monitoring-response-container">
         <img src={require("./assets/monitoring/safety.png")} className="Monitoring-response-boxes" alt="safety"/>
         <img src={require("./assets/monitoring/speed.png")} className="Monitoring-response-boxes" alt="speed"/>

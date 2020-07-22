@@ -21,7 +21,7 @@
   background-image:
     url("assets/monitoring/left_background.svg"),
     url("assets/monitoring/right_background.svg");
-  background-position: left bottom, right top;
+  background-position: left, right;
   background-color: #979797;
   background-repeat: no-repeat, no-repeat;
   background-size: contain;
@@ -34,8 +34,18 @@
   padding-top: 20px;
   width: 954px;
   text-align: center;
+  text-decoration: none;
   font-weight: normal;
   color: black;
+  max-width: 50%;
+  height: auto;
+}
+
+.Monitoring-response-boxes {
+  margin: 15px;
+  max-width: 20%;
+  height: auto;
+
 }
 
 .Monitoring-response-container {
@@ -53,8 +63,4 @@
     flex-direction: column;
     width: 100%;
   }
-}
-
-.Monitoring-response-boxes {
-  margin: 15px;
 }
