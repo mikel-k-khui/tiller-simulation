@@ -62,4 +62,10 @@
     flex-direction: column;
     width: 100%;
   }
+
+  .Monitoring-response-boxes {
+    margin: 15px;
+    max-width: 75%;
+    height: auto;
+  }
 }
